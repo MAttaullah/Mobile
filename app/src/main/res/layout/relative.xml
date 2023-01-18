@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="120dp"
+    android:textSize="20dp"
+    android:text="Detail"
+    ></TextView>
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/plant1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smantha Tree"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/t1"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reguler Price $195.00"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+
+        ></TextView>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="505dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"/>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="505dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="DuplicateIds" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="505dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"
+        android:text="Buy Now"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:text="Plants that produce grain, fruit, and vegetables also form basic human foods and have been domesticated for millennia. Plants have many cultural and other uses"
+
+        />
+</RelativeLayout>

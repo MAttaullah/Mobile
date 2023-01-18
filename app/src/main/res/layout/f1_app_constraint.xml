@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D242DD">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="246dp"
+        android:layout_height="352dp"
+        app:srcCompat="@drawable/chickens"
+
+
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="-80dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="286dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="309dp"
+        app:cardCornerRadius="50dp"></androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new user"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="316dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="316dp"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="405dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="20dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="407dp">
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:drawableRight="@drawable/pass"
+            android:ems="15"
+            android:inputType="textPassword"
+            android:text="password" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="140dp"
+            android:drawableRight="@drawable/pass"
+            android:ems="15"
+            android:text="Email">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableRight="@drawable/user"
+            android:ems="15"
+            android:text="Username">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:ems="15"
+            android:inputType="textPassword"
+            android:text="Confirm password" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
