@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Assign-MAD</string>
     <string name="button">Button</string>
+    <string name="search">SEARCH</string>
+    <string name="what_kind">What Kind</string>
+    <string name="of_plants_you_want">of plants you want</string>
+    <string name="image_mic">image_mic</string>
+    <string name="first_image">first_image</string>
+    <string name="thrid_image">thrid_image</string>
+    <string name="image_of_flower">Image of flower</string>
+    <string name="plant2">plant2</string>
+    <string name="all">All</string>
 </resources>
